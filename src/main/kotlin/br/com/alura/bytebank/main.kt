@@ -28,7 +28,7 @@ fun funcao2() {
     for (i in 1..5) {
         println(i)
         val endereco = Any()
-        endereco as Endereco
+        throw ArithmeticException()
     }
     println("fim funcao2")
 }
