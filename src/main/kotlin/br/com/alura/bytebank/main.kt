@@ -1,6 +1,7 @@
 package br.com.alura.bytebank
 
 import br.com.alura.bytebank.exception.SaldoInsuficienteException
+import br.com.alura.bytebank.teste.testaComportamentosConta
 
 /**
  *@Author giovanni.moratto
@@ -8,7 +9,7 @@ import br.com.alura.bytebank.exception.SaldoInsuficienteException
 
 fun main() {
     println("início main")
-    funcao1()
+    testaComportamentosConta()
     println("fim main")
 }
 
